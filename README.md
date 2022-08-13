@@ -31,3 +31,10 @@ Because testing is key to making code maintainable, you’ll also write unit tes
 
   ## Questions
   If you have any questions about this repo, open an issue or contact me directly @mikegonz0.dev@gmail.com. You can find more of my work at [mike-gonz0] https://github.com/mike-gonz0/).
+  
+  ## Video Walk Through
+  https://www.youtube.com/watch?v=4tH6UBPPvI4
+  
+  
+  
+![Screen Shot 2022-08-13 at 6 16 26 PM](https://user-images.githubusercontent.com/98365942/184514163-8bf03cfe-562e-447d-8b67-cbb894cd3530.png)

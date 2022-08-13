@@ -24,7 +24,7 @@ test('getting the correct role' , () => {
     
 test('is the office number correct' , () => {
     let example = new Manager('mike', 1, 'test@mike.com', 'Phone');
-    expect(example.getPhone()).toBe('Phone');
+    expect(example.getofficeNumber()).toBe('Phone');
 
 })
 })

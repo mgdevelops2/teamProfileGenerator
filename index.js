@@ -170,7 +170,7 @@ function generateHtml() { // function to generate HTML
         </nav>
     
     
-        <div class=" mg card-group container-fluid d-flex justify-content-between cards-custom">
+        <div class=" mg card-group container-fluid d-flex justify-content-center cards-custom">
         ${managerInfoCard()}
         </div>
     
@@ -189,7 +189,7 @@ function managerInfoCard() {
     <div class="card border-success" style="max-width: 14rem">
                 <div class="card-header border-success">
                     <h5 class="card-title m-2">${teamMembers[0].name}</h5>
-                    <p>jobTitle:Manager</p>
+                    <p>jobTitle: Manager</p>
                 </div>
             <ul class="list-group list-group-flush">
             <li class="list-group-item">employeeID: ${teamMembers[0].Id}</li>
@@ -197,8 +197,12 @@ function managerInfoCard() {
             <li class="list-group-item">Office Number: ${teamMembers[0].officeNumber}</li>
             </ul>
         </div>
-    ${createTeamCards()}
-`}
+        
+        ${createTeamCards()}
+        
+        `
+    
+    }
 
 function createTeamCards() {
     for (let i = 0; i < teamMembers.length; i++) {
@@ -213,8 +217,8 @@ function newCard() {
     i++;
     return `<div class="card border-success" style="max-width: 14rem">
                 <div class="card-header border-success">
-                    <h5>employeeName:${teamMembers[i].name}</h5>
-                    <p>jobTitle:${teamMembers[i].role}</p>
+                    <h5>${teamMembers[i].name}</h5>
+                    <p>jobTitle: ${teamMembers[i].role}</p>
                 </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item text-success">employeeID:${teamMembers[i].Id}</li>
